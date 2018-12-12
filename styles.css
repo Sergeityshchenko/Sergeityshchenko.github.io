@@ -1,0 +1,39 @@
+:root {
+    --max-width: 800px;
+    --nav-height: 60px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  nav ul {
+    width: var(--max-width);
+  
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+  
+    display: flex;
+  }
+  
+  nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    display: block;
+    width: 100%;
+    height: var(--nav-height);
+    line-height: var(--nav-height);
+  }
+  
+  header {
+    width: var(--max-width);
+    margin: 0 auto;
+  }
+  section#content {
+    width: var(--max-width);
+    margin: 0 auto;
+  }
