@@ -4,9 +4,10 @@
   }
   
   body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0 30px;
-    background-image: radial-gradient(circle farthest-corner at -10% 85%, #4afff6 0%, #1aedfc 30%, #05d3d3 80%, #00fff2 100%);
+    
     background-size: 100% 1000px;
   }
   
@@ -32,12 +33,12 @@
     line-height: var(--nav-height);
     text-decoration: none;
     font-size: 1.5em;
-    color: rgb(252, 253, 253);
+    color: black;
   }
   nav ul li a:hover {
     transform: scale(1.4);
     transition: 1.5s;
-    color: gold;
+    color: crimson;
   }
   
   header {
@@ -45,7 +46,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
-    color: white;
+    color: black;
 
   }
   section#content {
@@ -58,5 +59,11 @@
   }
   .underline {
     text-decoration: underline;
-    color: blue;
+    color: crimson;
+  }
+  #contacts {
+    margin-bottom: 5px;
+    border: hidden;
+    
+    
   }
