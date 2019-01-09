@@ -4,10 +4,10 @@
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway;
     margin: 0;
     padding: 0 30px;
-    
+    background-color: darkgray;
     background-size: 100% 1000px;
   }
   
@@ -34,6 +34,7 @@
     text-decoration: none;
     font-size: 1.5em;
     color: black;
+    transition: all 1s;
   }
   nav ul li a:hover {
     transform: scale(1.4);
@@ -46,14 +47,14 @@
     margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
-    color: black;
+    color: white;
 
   }
   section#content {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 20px 20px;
-    background-color:  white;
+    background-color: lightgray;
     border-style: groove;
     border-radius: 20px;
   }
@@ -67,3 +68,69 @@
     
     
   }
+  
+
+.content {
+  padding: 15px 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.row {
+  margin: 0 -15px;
+}
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+[class^="column-"] {
+  float: left;
+
+  box-sizing: border-box;
+  padding: 0 15px;
+
+ 
+}
+
+.column-1 {
+  width: 8.33%;
+}
+.column-2 {
+  width: 16.66%;
+}
+.column-3 {
+  width: 25%;
+}
+.column-4 {
+  width: 33.33%;
+}
+.column-5 {
+  width: 41.66%;
+}
+.column-6 {
+  width: 50%;
+}
+.column-7 {
+  width: 58.33%;
+}
+.column-8 {
+  width: 66.66%;
+}
+.column-9 {
+  width: 75%;
+}
+.column-10 {
+  width: 83.33%;
+}
+.column-11 {
+  width: 91.66%;
+}
+.column-12 {
+  width: 100%;
+}
