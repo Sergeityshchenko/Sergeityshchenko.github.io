@@ -1,5 +1,5 @@
 :root {
-    --max-width: 900px;
+    --max-width: 1000px;
     --min-width: 200px;
     --nav-height: 100px;
   }
@@ -29,7 +29,7 @@
   
   nav ul li a {
     display: block;
-    width: 100%;
+    width: 100%;;
     height: var(--nav-height);
     line-height: var(--nav-height);
     text-decoration: none;
@@ -58,9 +58,10 @@
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 20px 20px;
-    background-color: white;
+    background-color: lightgray;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border-radius: 20px;
+    box-shadow: inset 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
     
   .underline {
@@ -85,19 +86,23 @@
   }
   
 .container {
-  width: 90%;
-  margin: 0 auto;
+  
+  max-width: 900px;;
+  margin: 30px auto;
   box-sizing: border-box;
   padding: 0 15px;
+  justify-content: center;
 }
 .row {
   margin: 0 -15px;
-  padding-top: 5%;
-  border: 3px white;
+  
+  
+  border: 3px black;
+  
 }
 .row:after {
   content: " ";
-  display: table;
+  float: left;
   clear: both;
 }
 
@@ -118,6 +123,11 @@
 }
 .column-4 {
   width: 33.33%;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: inset 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
 }
 .column-5 {
   width: 41.66%;
@@ -144,13 +154,15 @@
   width: 100%;
 }
 
+
+
 input {
   max-width: var(--max-width);
   width: 60%;
   border: 0;
   border-bottom: 3px solid black;
   border-radius: 10px;
-  height: 40px;
+  height: 30px;
   margin: 5px 0px 20px 0px;
 }
 
@@ -158,6 +170,36 @@ input:focus {
   outline: none;
   border-bottom: 3px solid rgb(8, 168, 48);
 }
+
+@media (min-width: 500px) {
+  input {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  section#content {
+    max-width: auto;
+  }
+  
+  .column-4 {
+    width: 33.33%;
+    flex-wrap: wrap;
+    
+  }
+}
+
+@media (max-width: 800px) {
+  input {
+    
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  
+  .column-4 {
+    width: 66.66%;
+    flex-wrap: wrap;
+  }
+}  
 
 h3 {
   margin: 0;
@@ -255,4 +297,7 @@ p {
     grid-row: 3 /6;
   }
 }
+
+
+
 
