@@ -1,5 +1,5 @@
 :root {
-    --max-width: 1000px;
+    --max-width: 800px;
     --min-width: 200px;
     --nav-height: 100px;
   }
@@ -13,9 +13,7 @@
   
   nav ul {
     max-width: var(--max-width);
-    
     margin: 0 auto;
-    
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -95,8 +93,6 @@
 }
 .row {
   margin: 0 -15px;
-  
-  
   border: 3px black;
   
 }
@@ -127,7 +123,6 @@
   background-color: #fff;
   margin: 0 auto;
   box-shadow: inset 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  
 }
 .column-5 {
   width: 41.66%;
@@ -164,12 +159,33 @@ input {
   border-radius: 10px;
   height: 30px;
   margin: 5px 0px 20px 0px;
+  padding: 5px;
+
 }
 
 input:focus {
   outline: none;
   border-bottom: 3px solid rgb(8, 168, 48);
 }
+
+@media screen and (max-width: 600px) {  
+  nav {   
+      height: auto;  
+  }  
+  nav ul {  
+      width: 100%;  
+      display: block;  
+      height: auto;  
+  }  
+  nav li {  
+      width: 70%;    
+  }  
+  nav a {     
+      width: 50%;  
+      text-indent: 25px;  
+  }  
+}
+
 
 @media (min-width: 500px) {
   input {
@@ -184,14 +200,12 @@ input:focus {
   .column-4 {
     width: 33.33%;
     flex-wrap: wrap;
-    
   }
+  
 }
 
 @media (max-width: 800px) {
   input {
-    
-    width: 90%;
     flex-wrap: wrap;
   }
   
@@ -205,13 +219,14 @@ h3 {
   margin: 0;
 }
 p {
-  margin-top: 0;
+  margin-top: 20px;
 }
 .wrapper {
   width: 90%;
   min-width: 940px;
   margin: 20px auto;
   background-color: #fff;
+  color: #fff;
 }
 .home {
   display: grid;
