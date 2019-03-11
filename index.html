@@ -1,85 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Welcome</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-          <li><a class="underline" href="/index.html">Home</a></li>
-          <li><a href="/biography.html">About me</a></li>
-          <li><a href="/services.html">Services</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="/contacts.html">Contacts</a></li>
-        </ul>
-      </nav>
-      <hr>
-      <hr>
-      <hr>
+      <ul>
+        <li>
+          <a  href="#HomePage">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#BiographyPage">
+            About me
+          </a>
+        </li>
+        <li>
+          <a href="#PortfolioPage">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="#ServicesPage">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#ContactsPage">
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
 
+<div class="container">
+    <div class="content" id="HomePage">
+    <section>
       <header>
         <h1>Welcome</h1>
       </header>
+      <br>
       <hr>
+      <article>
+      <p>
+        I'm Sergei Tyshchenko, software developer, working in web development.
+      </p>
+      <p>
+        My job is to build your website so that it is functional and
+        user-friendly but at the same time attractive. Moreover, I add personal
+        touch to your product and make sure that is eye-catching and easy to
+        use. My aim is to bring across your message and identity in the most
+        creative way.
+      </p>
+    </article>
+    </section>
+  </div>
+
+    <div class="content" id="BiographyPage">
+    <section>
+      <header>
+          <h1>Biography</h1>
+      </header>
+      <br>
       <hr>
-      <hr>
-      <section id="content">
-        <article > 
-                <p>I'm Sergei Tyshchenko, software developer, working in web development.
-                    </p> 
-                <p>My job is to build your website so that it is functional and user-friendly
-                     but at the same time attractive.
-                     Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. 
-                     My aim is to bring across your message and identity in the most creative way.</p>
-        </article>
+      <article>
+          <p>
+              I was born in Cholpon-Ata on June 8, 1999.
+          </p>
+          <p> 
+              I am introverted and am perfectly happy 
+              watching quality movies or using a personal computer
+               during my spare time.
+          </p>
+    </article>
+    </section>
+  </div>
+  <div class="content" id="PortfolioPage">
+      <section>
+        <header>
+            <h1>Portfolio</h1>
+        </header>
+        <br>
+        <hr>
+        <article>
+            <p>
+                I was born in Cholpon-Ata on June 8, 1999.
+            </p>
+            <p> 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel error iure sunt corrupti inventore. Temporibus laudantium fugiat similique, minus earum quasi, iusto nulla quas asperiores officiis expedita explicabo eos saepe!
+            </p>
+      </article>
       </section>
-      
-        <div class="wrapper">
-          <div class="home">
-            <div class="feature">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-            <div class="special">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-            <div class="amzing">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-            <div class="news">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-            <div class="photos">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-            <div class="cta">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-            </div>
-          </div>
+    </div>
+    <div class="content" id="ServicesPage">
+        <section>
+          <header>
+              <h1>Services</h1>
+          </header>
+          <br>
+          <hr>
+          <article>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cupiditate quis hic. Assumenda, architecto iste inventore nostrum quis itaque numquam dolorem, nihil modi impedit at tempora laudantium. Doloribus, repellendus sapiente.
+              </p>
+              <p> 
+                  I am introverted and am perfectly happy 
+                  watching quality movies or using a personal computer
+                   during my spare time.
+              </p>
+        </article>
+        </section>
+      </div>
+
+      <div class="content" id="ContactsPage">
+          <section>
+            <header>
+                <h1>Contacts</h1>
+            </header>
+            <br>
+            <hr>
+            <section>
+                <article>
+                  <p>E-mail: styshchenko4@gmail.com</p>
+                
+                <div class="container">
+                  <div class="row">
+                    <div class="column-6">
+                      <label for="first"></label>
+                      <input type="text" id="first" placeholder="First name" />
+                    </div>
+                    <div class="column-6">
+                      <label for="second"></label>
+                      <input type="text" id="second" placeholder="Last name" />
+                    </div>
+                  </div>
+          
+                  <div class="row">
+                    <div class="column-">
+                      <label for="your e-mail"></label>
+                      <input type="email" id="your e-mail" placeholder="E-mail" />
+                    </div>
+                  </div>
+                </div>
+          
+                
+                  <button>Submit</button>
+                </article>
+              </section>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="column-4">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi error voluptate repellat veniam, veritatis magnam iusto vel id a consequatur tempora eligendi hic dolorum quidem sed. Corporis sint esse dignissimos.</p>
-            </div>
-            <div class="column-4">
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius esse dolore? Aspernatur repudiandae nisi ipsum architecto quaerat magnam, suscipit, officia quia rem blanditiis possimus tempore beatae quibusdam ipsa culpa!</p>
-            </div>
-            <div class="column-4">
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ad sapiente perspiciatis mollitia sint ratione sed ipsam magnam natus nobis voluptates quas, facilis atque praesentium totam repellat? Harum, saepe nihil?</p>
-           </div>
-          </div>
-        </div>
-      
+
+</div>
+
+<script src="scripts.js"></script> 
+
 </body>
 </html>
