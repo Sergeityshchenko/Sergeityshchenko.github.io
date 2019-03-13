@@ -137,11 +137,14 @@ input:focus {
   input{     
     width: 80%;  
     margin-left: 10%; 
-}
+  }
+  footer{     
+    flex-wrap: wrap;
+  }
+
 }
  
 footer {
-  
   width: 100%;
   position: absolute;
   left: 0;
@@ -155,13 +158,13 @@ footer {
 } 
 
 .firstPartFooter {
- margin: 10px;
+ margin: 30px;
 }
 .secondPartFooter {
-  margin: 10px;
+  margin: 30px;
  }
  .thirdPartFooter {
-  margin: 10px;
+  margin: 30px;
  }
 
 
