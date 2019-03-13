@@ -1,13 +1,5 @@
-const menuButton = document.querySelector('#menu-button');
-const arrayForButtonNav = [1];
-const arrayForButtonAside = [1];
-let line1 = document.querySelector('.line-1'); 
-    line2 = document.querySelector('.line-2'); 
-    line3 = document.querySelector('.line-3'); 
-    menuUl = document.querySelector('#show-menu');
-    menuBox = document.querySelector('.menu-box');
-    optionsPageBox = document.querySelector('.options'); 
-    nameBox = document.querySelector('.name-box');
+; 
+   let nameBox = document.querySelector('.name-box');
     inputFocus = document.querySelectorAll('input');
     label = document.querySelectorAll('label');
     email = document.querySelector('.email');
@@ -24,15 +16,7 @@ let line1 = document.querySelector('.line-1');
     valueArray = 0;
 
 
-menuButton.addEventListener('click', function() {
-    arrayForButtonNav.push(1);
-    if (arrayForButtonNav.length == 2) {
-        activeNav();
-    }
-    else {
-        defaultNav();
-    }
-});
+
 
 email.addEventListener('change', function() {
 	email.className = "mail";
