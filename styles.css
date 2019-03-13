@@ -128,7 +128,7 @@ input:focus {
       height: auto;  
   }  
   nav li {  
-      width: 70%;    
+      width: 60%;    
   }  
   nav a {     
       width: 50%;  
@@ -137,14 +137,11 @@ input:focus {
   input{     
     width: 80%;  
     margin-left: 10%; 
-  }
-  footer{     
-    flex-wrap: wrap;
-  }
-
+}
 }
  
 footer {
+  
   width: 100%;
   position: absolute;
   left: 0;
@@ -158,14 +155,14 @@ footer {
 } 
 
 .firstPartFooter {
- margin: 30px;
+ margin: 10px;
 }
-.secondPartFooter {
-  margin: 30px;
+.firstPartFooter {
+  margin: 10px;
  }
- .thirdPartFooter {
-  margin: 30px;
- }
+ .firstPartFooter {
+ margin: 10px;
+}
 
 
 
