@@ -155,9 +155,14 @@ footer {
 } 
 
 .firstPartFooter {
-  flex-wrap: wrap;
-
+ margin: 10px;
 }
+.secondPartFooter {
+  margin: 10px;
+ }
+ .thirdPartFooter {
+  margin: 10px;
+ }
 
 
 
