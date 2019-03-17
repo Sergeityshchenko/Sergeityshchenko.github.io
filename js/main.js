@@ -1,6 +1,6 @@
-const containerAllPages = document.querySelector('.container');
+const allPages = document.querySelectorAll('.container');
 const navLinks = document.querySelectorAll('nav a');
-const content = document.querySelectorAll('.content');
+const content = document.querySelector('.content');
 
 let activeLink = navLinks[0]; // Home
 
@@ -9,14 +9,12 @@ navLinks.className = "";
 navLinks.forEach(function(navLink) {
     //active home page in begin
     activeLink.className = "";
-    document
-    .getElementById(activeLink.href.split('#').pop())
-    .className = "active content";
-  navLink.addEventListener('click', function(event) {
+    document.getElementById(activeLink.href.split('#').pop())
+    .className = "active container";
+  navLink.addEventListener(click , function(event) {
     // Deactivate current page
     activeLink.className = "hover";
-    document
-      .getElementById(activeLink.href.split('#').pop())
+    document.getElementById(activeLink.href.split('#').pop())
       .className = "content";
 
     // Set new page
@@ -24,9 +22,8 @@ navLinks.forEach(function(navLink) {
 
     // Activate new page
     activeLink.className = "hover-active";
-    document
-      .getElementById(activeLink.href.split('#').pop())
-      .className = "active content";
+    document.getElementById(activeLink.href.split('#').pop())
+      .className = "";
 
     event.preventDefault();
   });

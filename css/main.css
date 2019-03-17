@@ -67,13 +67,13 @@ a:focus {
   color: whitesmoke;
 }
 
-/*.content {
+.content {
   display: none;
 }
 
 body .active {
   display: block;
-}*/
+}
 
 hr {
   display: block;
@@ -111,7 +111,7 @@ hr {
 
 #header {
   background: url(../img/main-font.jpg) no-repeat center top;
-  margin-top: -10px;
+  margin-top: 10px;
   padding-top: 20px;
   text-align: center;
   background-attachment: relative;
@@ -150,17 +150,21 @@ hr {
   font-size: 25px;
 }
 
-#f {
+#footer {
   background: #2d2d2d;
   padding-top: 30px;
   padding-bottom: 20px; 
   text-align: center;
 }
-#f i {
+#footer i {
   color: #bdbdbd;
   font-size: 30px;
   padding: 20px;
 }
-#f i:hover {
+#footer i:hover {
   color: #f85c37;
-}
+} 
+
+
+
+
