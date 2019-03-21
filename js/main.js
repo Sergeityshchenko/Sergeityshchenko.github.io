@@ -58,33 +58,5 @@ function show_div(div_id) {
     });
   });
 
-  inputFocus = document.querySelectorAll('input');
-
-  for (var i = 0; i < inputFocus.length; i++) {
-    let parentInput = inputFocus[i].parentElement;
   
-    inputFocus[i].addEventListener('input', function() {
-    if (this.value.length > 0) {
-      parentInput.classList.add("visible");
-      parentInput.classList.remove("hidden");
-    }
-    else {
-      parentInput.classList.add("hidden");
-      parentInput.classList.remove("visible");
-    }
-  });
-    inputFocus[i].addEventListener('change', function() {
-  
-    if (this.value.length > 0) {
-      parentInput.classList.add("good");
-      parentInput.classList.remove("hidden");
-      parentInput.classList.add("visible");
-    }
-    else {
-      parentInput.classList.add("mistake");
-      parentInput.classList.remove("good");
-      parentInput.classList.add("visible");
-    }
-  });
-  };
 
