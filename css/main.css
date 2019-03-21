@@ -27,10 +27,12 @@ h6 {
 p {
   line-height: 28px;
   margin-bottom: 25px;
+  font-size: 1.2em;
 }
 
 .centered {
   text-align: center;
+  flex-wrap: wrap;
 }
 
 a {
@@ -39,10 +41,38 @@ a {
 
 a:hover, 
 a:focus {
-  color: #7b7b7b;
+  color: #f85c37;
   text-decoration: none;
   outline: 0;
 }
+
+.navbar-collapse.nav a.active
+.navbar-collapse.nav a:active
+.navbar-collapse.nav a:focus {
+  text-decoration: underline white;
+}
+
+/*.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}*/
+
+#the_div_2 {
+  display: none
+}
+#the_div_3 {
+  display: none
+}
+#the_div_4 {
+  display: none
+}
+#the_div_5 {
+  display: none
+}
+
 
 .content input {
   border: 0;
@@ -67,6 +97,9 @@ a:focus {
   color: whitesmoke;
 }
 
+.row-centered .col-lg-12 > button:focus {
+  overflow: hidden;
+}
 
 
 hr {
@@ -88,16 +121,10 @@ hr {
 .navbar-inverse {
   background: #2d2d2d;
   border-color: #2d2d2d; 
-} 
-
-.navbar-inverse .navbar-nav > .active > a {
-  background-color: #ff7878; 
-} 
-
-
+}  
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #979393;
   font-weight: bolder;
   font-size: 22px;
   letter-spacing: 1px;
@@ -105,7 +132,7 @@ hr {
 
 #header {
   background: url(../img/main-font.jpg) no-repeat center top;
-  margin-top: 10px;
+  margin-top: -10px;
   padding-top: 20px;
   text-align: center;
   background-attachment: relative;
@@ -136,13 +163,7 @@ hr {
   letter-spacing: 2px;
 }
 
-.w {
-  padding-top: 35px;
-}
 
-.w h4 {
-  font-size: 25px;
-}
 
 #footer {
   background: #2d2d2d;
@@ -158,6 +179,24 @@ hr {
 #footer i:hover {
   color: #f85c37;
 } 
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a.active,
+nav a:active,
+nav a:focus {
+  text-decoration: underline;
+}
+
+article {
+  display: none;
+}
+article .active {
+  display: block;
+}
+
+
 
 
 
