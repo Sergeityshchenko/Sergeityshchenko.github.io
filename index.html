@@ -23,33 +23,29 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#HomePage" class="active"onclick="show_div('the_div_1'); return false;"><i class="fa fa-home" ></i>Home</a>
+            <a href="#HomePage" class="active" ><i class="fa fa-home" ></i>Home</a>
           </li>
           <li>
-            <a href="#BiographyPage"onclick="show_div('the_div_2'); return false;"><i class="fa fa-address-book"></i>About me</a>
+            <a href="#BiographyPage"><i class="fa fa-address-book"></i>About me</a>
           </li>
           <li>
-            <a href="#PortfolioPage"onclick="show_div('the_div_3'); return false;"><i class="fa fa-archive"></i>Portfolio</a>
+            <a href="#PortfolioPage"><i class="fa fa-archive"></i>Portfolio</a>
           </li>
           <li>
-            <a href="#ServicesPage" onclick="show_div('the_div_4'); return false;"><i class="fa fa-star"></i>Services</a>
+            <a href="#ServicesPage"><i class="fa fa-star"></i>Services</a>
           </li>
           <li>
-            <a href="#ContactsPage" onclick="show_div('the_div_5'); return false;"><i class="fa fa-phone"></i>Contacts</a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-envelope"><abbr title="
-              To come back to the beginning"></abbr></a>
+            <a href="#ContactsPage" ><i class="fa fa-phone"></i>Contacts</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div id="header">
-    <div id="the_div_1">
+    <div class="container" id="the_div_1">
       <div class="row centered">
         <div class="co-lg-8 col-lg0offset-2">
-          <div class="content active" id="HomePage">
+          <div class="content active" id="HomePage" >
             <h1>Welcome friend!</h1>
           <h3>I will try to help you.</h3>
           <br>
@@ -69,12 +65,12 @@
       </div>
     </div>
   
-      <div  id="the_div_2">
+      <div class="container" id="the_div_2" >
         <div class="row centered">
           <div class="co-lg-8 col-lg0offset-2">
-            <div class="content" id="BiographyPage">
+            <div class="content" id="BiographyPage" >
               <h1>Biography</h1>
-            <h3>I will try to help you.</h3>
+            <h3>Something about me</h3>
             <br>
             <br>
             <p>
@@ -89,10 +85,10 @@
           </div>
         </div>
       </div>
-        <div  id="the_div_3">
+        <div class="container" id="the_div_3">
           <div class="row centered">
             <div class="co-lg-8 col-lg0offset-2">
-              <div class="content" id="PortfolioPage">
+              <div class="content" id="PortfolioPage" >
                 <h1>Portfolio</h1>
               <h3></h3>
               <br>
@@ -114,7 +110,7 @@
           <div class="container" id="the_div_4">
             <div class="row centered">
               <div class="co-lg-8 col-lg0offset-2">
-                <div class="content" id="ServicesPage">
+                <div class="content" id="ServicesPage" >
                   <h1>Services</h1>
                 <h3></h3>
                 <br>
@@ -143,14 +139,14 @@
                   <br>
                   <h4>like to make an enquiry, please feel free to get in touch, and I will respond as soon as possible.</h4>
                       <label for="first"></label>
-                      <input type="text" id="first" placeholder="First name" />
-                     
-                      <label for="second"></label>
-                      <input type="text" id="second" placeholder="Last name" />
+                      <input type="text" id="first" placeholder="First name" alt="Please write your name."/>
                     
                       <label for="your e-mail"></label>
                       <input type="email" id="your e-mail" placeholder="E-mail" />
                       <div class="row-centered">
+                          <div class="co-lg-8 "col-lg0offset-2">
+                              <textarea  placeholder="Your message" style="color: black"></textarea> 
+                          </div>
                         <div class="col-lg-12 col-lg0offset-2">
                             <button>Send</button>
                         </div>
