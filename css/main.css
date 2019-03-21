@@ -156,7 +156,7 @@ hr {
 
 .content input {
   border: 0;
-  border-bottom: 3px solid gray;
+  border-bottom: 4px solid gray;
   border-radius: 10px;
   height: 35px;
   margin: 5px 0px 20px 0px;
@@ -168,12 +168,12 @@ hr {
 .content input:focus,
 .content input:hover {
   outline: none;
-  border-bottom: 3px solid rgb(8, 168, 48);
+  border-bottom: 4px solid rgb(8, 168, 48);
 }
 
 .content textarea {
   border: 0;
-  border-bottom: 3px solid gray;
+  border-bottom: 5px solid gray;
   border-radius: 10px;
   width: 330px;
   height: 70px;
@@ -183,9 +183,10 @@ hr {
   text-align: center;
   color: #2d2d2d;
 }
-.content textarea:focus {
+.content textarea:focus, 
+.content textarea:hover {
   outline: none;
-  border-bottom: 3px solid rgb(8, 168, 48);
+  border-bottom: 5px solid rgb(8, 168, 48);
 }
 
 #footer {
