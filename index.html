@@ -23,29 +23,30 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#HomePage" class="active"><i class="fa fa-home"></i>Home</a>
+            <a href="#HomePage" class="active"onclick="show_div('the_div_1'); return false;"><i class="fa fa-home" ></i>Home</a>
           </li>
           <li>
-            <a href="#BiographyPage"><i class="fa fa-address-book"></i>About me</a>
+            <a href="#BiographyPage"onclick="show_div('the_div_2'); return false;"><i class="fa fa-address-book"></i>About me</a>
           </li>
           <li>
-            <a href="#PortfolioPage"><i class="fa fa-archive"></i>Portfolio</a>
+            <a href="#PortfolioPage"onclick="show_div('the_div_3'); return false;"><i class="fa fa-archive"></i>Portfolio</a>
           </li>
           <li>
-            <a href="#ServicesPage"><i class="fa fa-star"></i>Services</a>
+            <a href="#ServicesPage" onclick="show_div('the_div_4'); return false;"><i class="fa fa-star"></i>Services</a>
           </li>
           <li>
-            <a href="#ContactsPage"><i class="fa fa-phone"></i>Contacts</a>
+            <a href="#ContactsPage" onclick="show_div('the_div_5'); return false;"><i class="fa fa-phone"></i>Contacts</a>
           </li>
           <li>
-            <a href="#" class="fa fa-envelope"></a>
+            <a href="#" class="fa fa-envelope"><abbr title="
+              To come back to the beginning"></abbr></a>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div id="header">
-    <div class="container">
+    <div id="the_div_1">
       <div class="row centered">
         <div class="co-lg-8 col-lg0offset-2">
           <div class="content active" id="HomePage">
@@ -67,8 +68,8 @@
         </div>
       </div>
     </div>
-  </div>
-      <div class="container">
+  
+      <div  id="the_div_2">
         <div class="row centered">
           <div class="co-lg-8 col-lg0offset-2">
             <div class="content" id="BiographyPage">
@@ -88,7 +89,7 @@
           </div>
         </div>
       </div>
-        <div class="container">
+        <div  id="the_div_3">
           <div class="row centered">
             <div class="co-lg-8 col-lg0offset-2">
               <div class="content" id="PortfolioPage">
@@ -110,7 +111,7 @@
             </div>
           </div>
         </div>
-          <div class="container">
+          <div class="container" id="the_div_4">
             <div class="row centered">
               <div class="co-lg-8 col-lg0offset-2">
                 <div class="content" id="ServicesPage">
@@ -132,7 +133,7 @@
               </div>
             </div>
           </div>
-            <div class="container">
+            <div class="container" id="the_div_5">
               <div class="row centered">
                 <div class="co-lg-8 col-lg0offset-2">
                   <div class="content" id="ContactsPage">
@@ -158,7 +159,8 @@
                 </div>
               </div>
             </div>
-          </div>     
+          </div> 
+        </div>    
   
   <div class="container w">
     <div class="row centered">

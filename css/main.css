@@ -67,13 +67,7 @@ a:focus {
   color: whitesmoke;
 }
 
-.content {
-  display: none;
-}
 
-body .active {
-  display: block;
-}
 
 hr {
   display: block;
