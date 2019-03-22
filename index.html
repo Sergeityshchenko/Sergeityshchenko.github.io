@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Welcome</title>
+  <title>Welcome to Front-End Development website</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
@@ -36,6 +36,12 @@
           </li>
           <li>
             <a href="#ContactsPage" ><i class="fa fa-phone"></i>Contacts</a>
+          </li>
+          <li>
+            <div id="toggles">
+              <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" checked/>
+              <label for="checkbox1" class="checkbox-label" data-off="Off" data-on="On"></label>
+            </div>
           </li>
         </ul>
       </div>
@@ -119,11 +125,20 @@
                     I'm Sergei Tyshchenko, software developer, working in web development.
                   </p>
                   <p>
-                    My job is to build your website so that it is functional and
-                    user-friendly but at the same time attractive. Moreover, I add personal
-                    touch to your product and make sure that is eye-catching and easy to
-                    use. My aim is to bring across your message and identity in the most
-                    creative way.
+                    <ul>
+                      <li>
+                        <p><strong class="fa fa-circle">HTML</strong></p>
+                      </li>
+                      <li>
+                        <p><strong class="fa fa-circle">CSS</strong></p>
+                      </li>
+                      <li>
+                        <p><strong class="fa fa-circle" > JavaScript</strong></p>
+                      </li>
+                      <li>
+                        <p><strong class="fa fa-circle">ReactJS</strong></p>
+                      </li>
+                    </ul>
                   </p>
                 </div> 
               </div>
@@ -144,7 +159,7 @@
                       <label for="your e-mail"></label>
                       <input type="email" id="your e-mail" placeholder="E-mail" />
                       <div class="row-centered">
-                          <div class="co-lg-8 "col-lg0offset-2">
+                          <div class="co-lg-8 col-lg0offset-2">
                               <textarea  placeholder="Your message" style="color: black"></textarea> 
                           </div>
                         <div class="col-lg-12 col-lg0offset-2">
