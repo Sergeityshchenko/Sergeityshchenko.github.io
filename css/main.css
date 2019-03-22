@@ -33,8 +33,8 @@ p {
   flex-wrap: wrap;
 }
 
-a {
-  color: #f85c37;
+ul li a .toggles {
+ margin-left: 20px;
 }
 
 a:hover,
@@ -99,7 +99,7 @@ hr {
 
 .navbar {
   font-weight: 800;
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -110,19 +110,18 @@ hr {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #979393;
+  color: #d4cece;
   font-weight: bolder;
   font-size: 22px;
   letter-spacing: 1px;
 }
 
 #toggles {
-  width: 40px;
-  margin: 16px auto;
+  width: 45px;
+  margin: 16px 30px auto;
   text-align: center;
 }
-.ios-toggle,
-.ios-toggle:active {
+.ios-toggle {
   position: absolute;
   top: -5000px;
   height: 0;
@@ -145,6 +144,7 @@ hr {
   border-radius: 18px;
   cursor: pointer;
 }
+
 .checkbox-label:before {
   content: "";
   display: block;
@@ -182,9 +182,12 @@ hr {
   height: 100%;
   width: 300px;
   text-align: right;
-  color: darkgray;
+  color: white;
   white-space: nowrap;
+  
   transition: 0.25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
   outline: none;
   font-family: Helvetica neue;
 }
@@ -224,7 +227,7 @@ hr {
 }
 
 #checkbox1:checked + .checkbox-label:after {
-  color: lightgray;
+  color: rgb(250, 248, 248);
 }
 
 #header {
