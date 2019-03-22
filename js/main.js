@@ -1,5 +1,8 @@
 
-/*let firstLink = document.getElementById('the_div_1');
+/*
+//This is also a working code
+
+let firstLink = document.getElementById('the_div_1');
 let secondLink = document.getElementById('the_div_2');
 let thirdLink = document.getElementById('the_div_3');
 let fourthLink = document.getElementById('the_div_4');
@@ -17,7 +20,8 @@ function show_div(div_id) {
   
   // Set require link
   document.getElementById(div_id).style.display = 'block';
-  }*/
+  }
+  */
   
   
   const navLinks = document.querySelectorAll('ul li a');
@@ -58,5 +62,19 @@ function show_div(div_id) {
     });
   });
 
+  let switcher = document.querySelector('input');
+  let mainBody = document.querySelector('body');
+ 
+
+  switcher.addEventListener( 'change', function() {
+  if(this.checked == true) {
+    mainBody.style.backgroundColor = "lightgray"; 
+   }
+  else {
+    mainBody.style.backgroundColor = "";
+   }
+  });
+
+  
   
 
