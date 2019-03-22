@@ -116,7 +116,9 @@ hr {
   letter-spacing: 1px;
 }
 
+
 #toggles {
+  
   width: 45px;
   margin: 16px 30px auto;
   text-align: center;
@@ -126,7 +128,7 @@ hr {
   top: -5000px;
   height: 0;
   width: 0;
-  opacity: 0;
+  opacity: 1;
   border: none;
   outline: none;
 }
@@ -138,7 +140,8 @@ hr {
   line-height: 10px;
   width: 100%;
   height: 10px;
-
+  
+  background: white;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
@@ -154,14 +157,14 @@ hr {
   text-indent: 40px;
   height: 20px;
   width: 20px;
-
+  background: darkgrey;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
   top: 0px;
   left: 0px;
   right: auto;
-  background: lightgray;
+  
   transition: 0.25s ease-in-out;
   outline: none;
   font-family: Helvetica neue;
@@ -177,10 +180,10 @@ hr {
   position: absolute;
   z-index: 0;
   top: 0;
-  left: -300px;
+  left: -35px;
   padding: 5px;
   height: 100%;
-  width: 300px;
+  width: 30px;
   text-align: right;
   color: white;
   white-space: nowrap;
@@ -189,16 +192,16 @@ hr {
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   outline: none;
-  font-family: Helvetica neue;
+  font-family: Lato;
 }
 
 .ios-toggle:checked + .checkbox-label {
-  -webkit-box-shadow: inset 0 0 0 20px rgba(19, 191, 17, 1),
-    0 0 0 2px rgba(19, 191, 17, 1);
-  -moz-box-shadow: inset 0 0 0 20px rgba(19, 191, 17, 1),
-    0 0 0 2px rgba(19, 191, 17, 1);
-  box-shadow: inset 0 0 0 20px rgba(19, 191, 17, 1),
-    0 0 0 2px rgba(19, 191, 17, 1);
+  -webkit-box-shadow: inset 0 0 0 20px rgba(237, 245, 237, 1),
+    0 0 0 2px rgb(10, 10, 10);
+  -moz-box-shadow: inset 0 0 0 20px rgb(245, 241, 241),
+    0 0 0 2px rgba(237, 245, 237);
+  box-shadow: inset 0 0 0 20px rgba(237, 245, 237, 1),
+    0 0 0 2px rgb(12, 12, 12);
 }
 
 .ios-toggle:checked + .checkbox-label:before {
@@ -215,9 +218,9 @@ hr {
 }
 
 #checkbox1 + .checkbox-label {
-  -webkit-box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 1), 0 0 0 2px lightgray;
-  -moz-box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 1), 0 0 0 2px lightgray;
-  box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 1), 0 0 0 2px lightgray;
+  -webkit-box-shadow: inset 0 0 0 0px rgba(222, 228, 222, 1), 0 0 0 2px darkgray;
+  -moz-box-shadow: inset 0 0 0 0px rgba(237, 245, 237, 1), 0 0 0 2px darkgray;
+  box-shadow: inset 0 0 0 0px rgba(237, 245, 237, 1), 0 0 0 2px darkgray;
 }
 
 #checkbox1:checked + .checkbox-label {
@@ -239,8 +242,8 @@ hr {
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  height: 100vh;
-  color: rgb(252, 244, 244);
+  height: 800px;
+  
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -249,6 +252,7 @@ hr {
 }
 
 #header h1 {
+  font-family: Raleway;
   margin-top: 100px;
   color: white;
   font-size: 70px;
@@ -256,11 +260,18 @@ hr {
   letter-spacing: 3px;
 }
 
-#header h2 {
+#header h3 {
+  font-family: Muli;
   color: white;
-  font-size: 40px;
+  font-size: 1.7em;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+#header p {
+  font-family: Muli;
+  color: white;
+  font-size: 1.5em;
 }
 
 strong:hover {
@@ -318,8 +329,12 @@ ul li {
 #footer h3,
 h5 {
   font-family: Muli;
-  color: #dfd9d9;
+  color: white;
+  
 }
+
+
+
 #footer i {
   color: rgb(192, 183, 183);
   font-size: 30px;

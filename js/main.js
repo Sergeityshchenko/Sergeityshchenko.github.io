@@ -64,16 +64,32 @@ function show_div(div_id) {
 
   let switcher = document.querySelector('input');
   let mainBody = document.querySelector('body');
+  let contentHeader = document.querySelector('#header');
+  let contentSection = document.querySelector('.section');
+  let switchInsideBg = document.querySelector('.checkbox-label');
+ 
  
 
   switcher.addEventListener( 'change', function() {
   if(this.checked == true) {
-    mainBody.style.backgroundColor = "lightgray"; 
+    mainBody.style.backgroundColor = "gray";
+    contentHeader.style.backgroundImage = "url(../img/darkest-main-font.jpg)";
+    contentSection.style.color = "white"; 
+    switchInsideBg.style.backgroundColor = "black";
    }
   else {
     mainBody.style.backgroundColor = "";
+    contentHeader.style.backgroundImage = "";
+    contentSection.style.color = "";
+    switchInsideBg.style.backgroundColor = ""; 
    }
   });
+
+  /*switcher.addEventListener('change', function() {
+    labelOff.innerHTML = labelOff.value;
+  });*/
+
+
 
   
   
