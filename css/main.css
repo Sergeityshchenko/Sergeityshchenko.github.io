@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
 @import url("https://fonts.googleapis.com/css?family=Muli");
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 body {
   font-family: "Lato";
@@ -23,9 +24,9 @@ h6 {
 }
 
 p {
-  line-height: 30px;
-  margin-bottom: 25px;
-  font-size: 1.2em;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-size: 1em;
 }
 
 .centered {
@@ -98,7 +99,7 @@ hr {
 }
 
 .navbar {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -234,7 +235,7 @@ hr {
 }
 
 #header {
-  background: url(../img/main-font.jpg) no-repeat center top;
+  background: url(../img/texture.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -253,26 +254,32 @@ hr {
 
 #header h1 {
   font-family: Raleway;
-  margin-top: 100px;
+  margin-top: 50px;
   color: white;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 300;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
 }
 
 #header h3 {
-  font-family: Muli;
+  font-family: Raleway;
   color: white;
-  font-size: 1.7em;
+  font-size: 1.5em;
   text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 #header p {
-  font-family: Muli;
-  color: white;
-  font-size: 1.5em;
+  font-family:Raleway;
+  color: rgb(249, 249, 252);
+  font-size: 1.2em;
 }
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
 
 strong:hover {
   color: #dd7a09f1;
@@ -286,11 +293,12 @@ ul li {
 }
 
 .content input {
+  width: 180px;
   border: 0;
   border-bottom: 4px solid gray;
   border-radius: 10px;
   height: 35px;
-  margin: 5px 0px 20px 0px;
+  margin: 0px 0px 5px 0px;
   padding: 5px;
   text-align: center;
   color: #2d2d2d;
@@ -307,8 +315,8 @@ ul li {
   border-bottom: 5px solid gray;
   border-radius: 10px;
   width: 300px;
-  height: 50px;
-  margin: 10px 20px;
+  height: 70px;
+  margin: 10px 10px;
   padding: 5px;
   resize: none;
   text-align: center;
@@ -320,6 +328,13 @@ ul li {
   border-bottom: 5px solid rgb(8, 168, 48);
 }
 
+ .col-lg-12 button {
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+}
+
 #footer {
   background: #2d2d2d;
   padding-top: 30px;
@@ -329,11 +344,8 @@ ul li {
 #footer h3,
 h5 {
   font-family: Muli;
-  color: white;
-  
+  color: white;  
 }
-
-
 
 #footer i {
   color: rgb(192, 183, 183);

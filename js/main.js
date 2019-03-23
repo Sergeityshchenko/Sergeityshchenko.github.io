@@ -73,7 +73,7 @@ function show_div(div_id) {
   switcher.addEventListener( 'change', function() {
   if(this.checked == true) {
     mainBody.style.backgroundColor = "gray";
-    contentHeader.style.backgroundImage = "url(../img/darkest-main-font.jpg)";
+    contentHeader.style.backgroundImage = "url(../img/texture-dark.jpg)";
     contentSection.style.color = "white"; 
     switchInsideBg.style.backgroundColor = "black";
    }
@@ -85,10 +85,7 @@ function show_div(div_id) {
    }
   });
 
-  /*switcher.addEventListener('change', function() {
-    labelOff.innerHTML = labelOff.value;
-  });*/
-
+  
 
 
   
