@@ -283,15 +283,19 @@ ul li {
 .section .row .col-lg-12 .left {
   font-family: Heebo;
   text-align: left;
+  margin-left: 15px;
 }
 
 .section .row .col-lg-12 .center {
   font-family: Heebo;
   text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .section .row .col-lg-12 .right {
   font-family: Heebo;
   text-align: right;
+  margin-right: 15px;
 }
 
 .content input {
