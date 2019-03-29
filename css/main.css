@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
 @import url("https://fonts.googleapis.com/css?family=Muli");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 body {
   font-family: "Lato";
@@ -24,8 +25,8 @@ h6 {
 }
 
 p {
-  line-height: 20px;
-  margin-bottom: 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
   font-size: 1em;
 }
 
@@ -61,19 +62,6 @@ a:focus {
 .content.active {
   display: block;
 }
-
-/*#the_div_2 {
-  display: none
-}
-#the_div_3 {
-  display: none
-}
-#the_div_4 {
-  display: none
-}
-#the_div_5 {
-  display: none
-}*/
 
 .row-centered .col-lg-12 > button {
   width: 80px;
@@ -253,30 +241,30 @@ hr {
 }
 
 #header h1 {
-  font-family: Raleway;
+  font-family: Lobster;
   margin-top: 50px;
   color: white;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 300;
-  letter-spacing: 6px;
+  letter-spacing: 7px;
 }
 
 #header h3 {
-  font-family: Raleway;
+  font-family: Heebo;
   color: white;
   font-size: 1.5em;
   text-transform: uppercase;
 }
 
 #header p {
-  font-family:Raleway;
+  font-family: Heebo;
   color: rgb(249, 249, 252);
   font-size: 1.2em;
 }
 
 img {
   width: 300px;
-  height: 200px;
+  height: 250px;
   border-radius: 10px;
 }
 
@@ -290,6 +278,20 @@ ul li {
   padding-right: 10px;
   display: inline-block;
   list-style: none;
+}
+
+.section .row .col-lg-12 .left {
+  font-family: Heebo;
+  text-align: left;
+}
+
+.section .row .col-lg-12 .center {
+  font-family: Heebo;
+  text-align: center;
+}
+.section .row .col-lg-12 .right {
+  font-family: Heebo;
+  text-align: right;
 }
 
 .content input {
